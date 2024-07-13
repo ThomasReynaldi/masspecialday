@@ -52,7 +52,7 @@ function createCandles() {
 }
 
 function createFloatingText() {
-  const phrases = ['Happy Birthday!', 'Semoga Panjang Umur Dan Sehat Selalu', 'Tercapaii Semua Cita-Cita Kamu', 'LOVE YOUU SO MUCHHH'];
+  const phrases = ['Happy Birthday!', 'Semoga Panjang Umur Dan Sehat Selalu', 'Tercapaii Semua Cita-Cita Kamu', 'LOVE YOUU SO MUCHHH','Maya Anjeli Siadari Turns 25'];
   const textContainer = document.createElement('div');
   textContainer.classList.add('happy-birthday');
   setInterval(() => {
