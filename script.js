@@ -1,6 +1,6 @@
 function createBalloons() {
   const balloonContainer = document.getElementById('balloon-container');
-  const names = ['Makasihh udah berjuang selama 24 tahun kamuu, sekarang di tahun ke 25 nya kamuu semoga kamu makinn kuat dengan cobaan didepannya yahh, dan kamu bisa ngelwatin semuanya, maaf di ulang tahun mu yang sekarang aku mungkin belum bisa menjadi yang perfect buat kamu, love youu so muchh ❤️‍🔥 '];
+  const names = ['Makasihh udah berjuang selama 24 tahun kamuu, sekarang di tahun ke 25 nya kamuu semoga kamu makinn kuat dengan cobaan didepannya yahh, dan kamu bisa ngelwatin semuanya, maaf di ulang tahun mu yang sekarang aku mungkin belum bisa menjadi yang perfect buat kamu, love youu so muchh  Maya Anjeli Siadari❤️‍🔥 '];
   const colors = ['#ff758c', '#ff7eb3', '#ffdc00', '#ffb3ff', '#ff66ff']; // Warna balon yang berbeda
   const balloonCount = 25; // Jumlah balon yang diinginkan
 
