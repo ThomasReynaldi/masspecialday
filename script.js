@@ -1,6 +1,6 @@
 function createBalloons() {
   const balloonContainer = document.getElementById('balloon-container');
-  const names = ['Maya Anjeli Siadari']; // Nama-nama untuk ulang tahun
+  const names = ['Makasihh udah berjuang selama 24 tahun kamuu, sekarang di tahun ke 25 nya kamuu semoga kamu makinn kuat dengan cobaan didepannya yahh, dan kamu bisa ngelwatin semuanya, maaf di ulang tahun mu yang sekarang aku mungkin belum bisa menjadi yang perfect buat kamu, love youu so muchh ❤️‍🔥 '];
   const colors = ['#ff758c', '#ff7eb3', '#ffdc00', '#ffb3ff', '#ff66ff']; // Warna balon yang berbeda
   const balloonCount = 25; // Jumlah balon yang diinginkan
 
@@ -16,7 +16,7 @@ function createBalloons() {
     balloon.addEventListener('click', function() {
       this.style.animation = 'explode 0.5s forwards'; // Animasi ledakan saat diklik
       setTimeout(() => {
-        alert(`HAPPY BIRTHDAY, ${name}! 🎉`); // Tampilkan pesan ulang tahun
+        alert(` ${name}! 🎉`); // Tampilkan pesan ulang tahun
         this.remove(); // Hapus balon setelah ledakan
       }, 500);
     });
